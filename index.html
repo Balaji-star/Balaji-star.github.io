@@ -1,1167 +1,595 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-
 
 <head>
-		
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<meta http-equiv="content-script-type" content="text/javascript" />
-		<meta http-equiv="content-style-type" content="text/css" />
-		<meta http-equiv="content-language" content="nl" />
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-		<meta name="author" content=" Balaji" />	
-		<meta name="description" content="I'm Balaji, a mobile appdeveloper / creative programmer with good knowledge of front-end technics." />
-		<meta name="keywords" content="Balaji, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
-		<meta name="robots" content="index, follow" />
-		<meta name="revisit-after" content="14 days" />
-			
-		<title>Balaji - App Developer - Interactive Resume</title>
-		
-		<!-- Bootstrap core CSS -->
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-		<link href="view/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="view/style.css" rel="stylesheet" />
-		
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		
-		<!--[if lt IE 9]>
-			<script src="/view/js/html5shiv.js"></script>
-			<script src="/view/js/respond.min.js"></script>
-		<![endif]-->
-		
-		<!-- Begin Inspectlet Embed Code -->
-		<script type="text/javascript" id="inspectletjs">
-			window.__insp = window.__insp || [];
-			__insp.push(['wid', 92785244]);
-			(function() {
-				function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-				if (window.attachEvent){
-					window.attachEvent('onload', __ldinsp);
-				}else{
-					window.addEventListener('load', __ldinsp, false);
-				}
-			})();
-		</script>
-		<!-- End Inspectlet Embed Code -->
-                <script async>(function(w, d) { w.CollectId = "5f22c344df7e9e71498e760c"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script");
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Balaji </title>
+  <meta content="Best portfolio in the world, top 10 portfolio, professional portfolio, no.1 portfolio, high tech portfolio, awesome portfolio" name="description">
+  <meta content="google, portfolio, personal website, website, static website, dynamic website, responsive website, web apps, google website,SEO, resume, marketing,digital marketing, content, web page" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ <script async>(function(w, d) { w.CollectId = "5f22c344df7e9e71498e760c"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script");
         s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
-	</head>
-	<body data-spy="scroll" data-target="#navbar-example">	 
-		
-		
-		
-			
-		<div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right">
-			<div class="container">
-				<h1>Balaji</h1>
-				<p class="lead">Welcome to my Portfolio</p>
-			</div>
-			
-			<div class="overlay"></div>
-			
-			<a href="#profile" class="scroll-down">	
-				<span class="glyphicon glyphicon-chevron-down"></span>
-			</a>
-		</div>
-		
-		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#profile">Profile</a></li>
-					<li><a href="#experiences">Experiences</a></li>
-					<li><a href="#abilities">Abilities</a></li>
+  
+</head>
 
-										<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</nav>
-		
-		<div class="background-white">
-			<div id="profile" class="container">
-				<h2>Profile</h2>
-<p class="lead">Ordinary people <b>react</b><br>Smart People <b>respond</b>,but<br>Leaders take <b> Initiative</b><br> -anonymous</p>
+<body>
 
-<hr />
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-<div class="row">
-	<div class="col-md-4">
-		<h3>About me</h3>
-		<p>
-			I am a Beginner App developer. I am an expert in front-end techniques.I love learning new things & Spreading happiness to the people face who surrounded me. I love to spend time on motivating people. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p>
-	</div>
-	<div class="col-md-4 text-center">
-		<img src="view/images/1.jpg" alt="Balaji" width="150" height="150" />
-	</div>
-	<div class="col-md-4">
-		<h3>Details</h3>
-		<p>
-			<strong>Name:</strong><br />
-			Balaji R.<br />
-			<strong>Location:</strong><br />
-			Mangadu, Chennai</p>
-		
-			</div>
-</div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-</div>	
-		</div>	
-		
-		<div id="experiences" class="container">
-			<h2>Experiences</h2>
-<p class="lead">
-	&ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
+      <div class="profile">
+        <img src="assets/img/1.jpg" alt="my image" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Balaji</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/RBalajiofficial" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100008780472669" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/mr_scorpian_king/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Balaji-star" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/balaji-star/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+		  <li><a href="#active"><i class="bx bx-award"></i> <span>Achievements</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Project</span></a></li>
+          <li><a href="#certifications"><i class="bx bx-badge"></i> <span>Certifications</span></a></li>
+          
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Balaji</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Entrepreneur, Researcher"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>“Talk less, work more and Help others as you can!” Throughout my career, I've noticed that I've always beed good with handling problems and leadership. To do something without having to be told to do it. when I work, I always take initiative. If I see something that needs doing, I don't wait for instruction, I do it. I believe that to be get anywhere in life, you need this quality. “Action is more important than an ordinary reaction”</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Mobile App &amp; Web Developer.</h3>
+           
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.balaji-star.github.io</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong>6383612433</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Chennai, India</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.TECH (pursuing)</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> t.r.balaji24@gmail.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p align="center" >Ordinary people react</br>
+Smart People respond,but</br>
+Leaders take Initiative</br>
+-anonymous
+
 </p>
+          </div>
+        </div>
 
-<hr />
+      </div>
+    </section><!-- End About Section -->
 
-<!--<div class="alert alert-danger">
-	<strong>Looking for an awesome new challenge somewhere in the neighborhood of Den Bosch or Amsterdam as a Creative PHP Web Developer. </strong>
-</div>-->
+    <!-- ======= Facts Section ======= -->
+   <!-- End Facts Section -->
 
-<h3>Educations</h3>
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
 
+        <div class="section-title">
+		 <p align="center">"Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft."</br> -Will smith</p>
+          <h2>Skills</h2>
+          
+        </div>
 
-<div class="experiences">
+        <div class="row skills-content">
 
-					
-	
-					
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>Sri Sairam Engineering College,Chennai</h4>
-			<p class="experience-period">
-				Arp 2019				- 
-				Jun 2022			</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Bachelor - Information Technology</strong>
-				<span class="hidden-phone">
-                   The place where my real life starts.				</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Chennai </span>
-				</span>
-			</p>
-		</div>
-	</div>
-	
-					
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>The National IT International Matriculation Hr. Sec. School</h4>
-			<p class="experience-period">
-				Arp 2016				- 
-				May 2018			</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Highschool</strong>
-				<span class="hidden-phone">
-					I graduated highschool, where I enjoyed doing science, math, Computer Science, It feels like in heavean		</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Chennai </span>
-				</span>
-			</p>
-		</div>
-	</div>
-	
-	
-</div>
-	
-	
+          <div class="col-lg-6" data-aos="fade-up">
 
-<hr />
+            <div class="progress">
+              <span class="skill">HTML <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
 
-<h3>Certifications</h3>
+            <div class="progress">
+              <span class="skill">CSS <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
 
-<div class="experience row">
-		<div class="col-md-4">
-			<h4>University of Minnesota</h4>
-			<p class="experience-period">
-				May 2020				
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Agile Software Development</strong>
-				<span class="hidden-phone">
-								 It helps to improve my Agile skills</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>University of Virginia</h4>
-			<p class="experience-period">
-				April 2020		
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Design Thinking for Innovation </strong>
-				<span class="hidden-phone">
-								 One of the Excellent course</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
+            <div class="progress">
+              <span class="skill">Android <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
 
-<div class="experience row">
-		<div class="col-md-4">
-			<h4>Google</h4>
-			<p class="experience-period">
-				March 2020		
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Fundamentals of Digital Marketing </strong>
-				
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
+          </div>
 
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
-	
-	
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>Cisco</h4>
-			<p class="experience-period">
-				May 2020				
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Entreprenuership</strong>
-				
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>IBM</h4>
-			<p class="experience-period">
-				May 2020				
-						</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Data Visualization with Python</strong>
-				
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>TCS</h4>
-			<p class="experience-period">
-				May 2020				
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Soft Skills</strong>
-				
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>Rutgers the State University of New Jersey</h4>
-			<p class="experience-period">
-				June 2020				
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Business Intelligence and Competitive Analysis
- </strong>
-				
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>Simplilearn</h4>
-			<p class="experience-period">
-				March 2020				
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Course - Introduction to Project Management</strong>
-				
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Online					</span>
-				</span>
-			</p>
-		</div>
-	</div>
-<hr />
-<h3>Achievements</h3>
+            <div class="progress">
+              <span class="skill">SEO <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
 
-<div class="experience row">
-		<div class="col-md-4">
-			<h4>I place </h4>
-			<p class="experience-period">
-				Sep 2019	
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Paper Presentation -  VANET application using Fog computing </strong>
+            <div class="progress">
+              <span class="skill">Arduino <i class="val">35%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Data Visualization <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Balaji</h4>
+              <p><em>Innovative and Creative Mobile/Web app developer with 1+ years of experience in designing and developing intractive applications with focused business plan ideas.</em></p>
+              <ul>
+                <li>Mangadu, Chennai, India</li>
+                <li>6383612433</li>
+                <li>balaji.iodevp@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>B.Tech Information Technology</h4>
+              <h5>2018 - 2022 (present)</h5>
+              <p><em>Sri Sairam Engineering college, Chennai</em></p>
+              <p>The place where my real life starts.		</p>
+            </div>
+            <div class="resume-item">
+              <h4>High School</h4>
+              <h5>2016 - 2018</h5>
+              <p><em>The National IT International Mr. Hr. Sec. School, Chennai</em></p>
+              <p>I graduated highschool, where I enjoyed doing science, math, Computer Science, Where it feels like in the heavean.	</p>
+            </div>
+          </div>
+		  
+		  <!--Professional Experience-->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Web developer intern At One yes Technologies</h4>
+              <h5>August 2020 - Present</h5>
+              <p><em>Chennai </em></p>
+            </div>
 			
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Mohamed Sathak A.J. College of Engineering</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>I place </h4>
-			<p class="experience-period">
-					Sep 2019		
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Technical Event - Techno </strong>
+            <div class="resume-item">
+              <h4>Marketing intern At Newton School</h4>
+              <h5>July - August 2020</h5>
+              <p><em>Bangalore</em></p>
+            </div>
 			
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Saveetha Engineering College</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>I place </h4>
-			<p class="experience-period">
-					Feb 2020		
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Mobile App Development - Let's Build IT</strong>
+			<div class="resume-item">
+              <h4>Mobile App Developer At MIT Square</h4>
+              <h5>May 2020 - Jun 2021</h5>
+              <p><em>London</em></p>
+            </div>
 			
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Sri Sairam Engineering College</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>II place </h4>
-			<p class="experience-period">
-				Sep 2019			
-							</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Technical Event - Burn The Seconds</strong>
+			<div class="resume-item">
+              <h4>Digital marketing lead At Oneyes Technologies</h4>
+              <h5>May 2020 - Jun 2020</h5>
+              <p><em>Chennai</em></p>
+            </div>
 			
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Saveetha Engineering College</span>
-				</span>
-			</p>
-		</div>
-	</div>
-	
-<hr />
-
-<h3>Careers</h3>
-
-
-<div class="experiences">
-
-					
-					
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>MIT Square</h4>
-			<p class="experience-period">
-				May 2020				- 
-				Jun 2020			</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Internship - Mobile App Developer</strong>
-				<span class="hidden-phone">
-					Commited with many innovative projects, a very good industrial explosure</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						London / United Kingdom					</span>
-					
-										
-				</span>
-			</p>
-		</div>
-	</div>
-	
-					
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>Oneyes Technologies</h4>
-			<p class="experience-period">
-				May 2020				- 
-				Jun 2020			</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Internship - Digital Marketing Lead</strong>
-				<span class="hidden-phone">
-					My second internship and the place I learnt the actual leadership skill 	</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Chennai	/ India			</span>
-					
-										
+			<div class="resume-item">
+              <h4>Product Development intern At Nutpam software Academy</h4>
+              <h5>Nov 2019 - Jan 2020</h5>
+              <p><em>Chennai</em></p>
+            </div>
 			
-					
-										
-				</span>
-			</p>
-		</div>
-	</div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
 	
-					
-	<div class="experience row">
-		<div class="col-md-4">
-			<h4>Nutpam Software Academy</h4>
-			<p class="experience-period">
-				Nov 2019				- 
-				Jan 2020			</p>
-		</div>
-		<div class="col-md-8">
-			<p>
-				<strong>Internship - Product Developer</strong>
-				<span class="hidden-phone">
-					The First and best internship in my life, very hardest period of my life too,to learn new things because its the beginning  	</span>
-				<span class="experience-details">
-					<span class="location">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						Chennai	/ India	</span>
-										
-				</span>
-			</p>
-		</div>
-	</div>				
-	
-</div>
-		</div>
-		
-		<div class="background-white">
-			<div id="abilities" class="container">
-				<h2>Abilities</h2>
-<p class="lead">
-	&ldquo;The Master has failed more than a Beginner has even tried.&rdquo;<br />- Stephen McCranie
+	<!--Achievements Section-->
+	    <section id="active" class="certifications">
+      <div class="container">
+
+        <div class="section-title">
+          
+          <p align= "center"> <b>“The Master has failed more than a Beginner has even tried.”
+</br>- Stephen McCranie</b> </p>
+<h2>Achievements</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            
+            <h5 class="title" style="color: #2282e3;">I Place</h5>
+            <p class="description"><b>Paper Presentation</b> - VANET application using Fog computing at
+ Mohamed Sathak A.J. College of Engineering</p></br>
+          </div> 
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+           
+            <h5 class="title" style="color: #2282e3;">I Place</h5>
+            <p class="description"><b>Technical Event</b> - Techno at
+ Saveetha Engineering College</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            
+            <h5 class="title" style="color: #2282e3;">I Place</h5>
+            <p class="description"><b>Mobile App Development </b>- Let's Build IT at
+ Sri Sairam Engineering College</p>
+          </div>
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            
+            <h5 class="title" style="color: #2282e3;">II Place</h5>
+            <p class="description"><b>Technical Event </b>- Burn The Seconds at
+ Saveetha Engineering College
 </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+           
+            <h5 class="title" style="color: #2282e3;">I Place</h5>
+            <p class="description"><b>Technical Event </b>-Dumb Design at
+ Saveetha Engineering College</p>
+          </div>
+         </div>
 
-<hr />
+      </div>
+    </section><!-- End Achievements Section -->
 
-<h3>Skills</h3>
-
-<div class="row">
-
-		
-	<div class="col-md-6">
-		<ul class="no-bullets">
-		
-		
-				
-			<li>
-				<span class="ability-title">Leadership</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-									
-				</span>
-			</li>	
-			<li>
-				<span class="ability-title">Entreprenuership</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-				
-			<li>
-				<span class="ability-title">Design Thinking</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-									
-				</span>
-			</li>
-			
-			
-					
-				
-					
-			
-			
-					
-				
-			<li>
-				<span class="ability-title">JAVA</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-				
-			<li>
-				<span class="ability-title">XML</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-				
-			<li>
-				<span class="ability-title">Python</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-			<li>
-				<span class="ability-title">Data virtualization </span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-				
-			<li>
-				<span class="ability-title">Agile</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-			
-			
-					
-				
-		</ul>
-	</div>
 	
-		
-</div>
 
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Projects</h2>
+          
+        </div>
 
-<hr />
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
 
-<h3>Languages</h3>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-<div class="row">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/help2edu.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/help2edu.jpeg" data-gall="portfolioGallery" class="venobox" title="Help2Educate"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-		
-	<div class="col-md-6">
-		<ul class="no-bullets">
-		
-				
-			<li>
-				<span class="ability-title">Tamil (Mother tongue)</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-			
-					
-				
-			<li>
-				<span class="ability-title">English (Daily use)</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-			
-			 
-			
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			
-					
-				
-		
-					
-				
-		</ul>
-	</div>
-	
-		
-</div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/appfesto.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/appfesto.png" data-gall="portfolioGallery" class="venobox" title="APP FESTO"><i class="bx bx-plus"></i></a>
+                <a href="https://sairam.edu.in/appfesto2020/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-<hr />
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/help2feed.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/help2feed.jpeg" data-gall="portfolioGallery" class="venobox" title="Help2Feed"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-<h3>Tools</h3>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/corxweb.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/corxweb.png" data-gall="portfolioGallery" class="venobox" title="COR X web"><i class="bx bx-plus"></i></a>
+                <a href="https://balaji-canada.github.io/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-<div class="row">
-		
-	<div class="col-md-6">
-		<ul class="no-bullets">
-		
-					
-					
-				
-			<li>
-				<span class="ability-title">MS Office </span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-									
-				</span>
-			</li>
-			
-				
-			
-					
-				
-			<li>
-				<span class="ability-title">Notepad++ </span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-									
-				</span>
-			</li>
-			
-					
-				
-			<li>
-				<span class="ability-title">Visual Studio code</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star"></span>
-					
-									
-				</span>
-			</li>
-			
-					
-				
-			<li>
-				<span class="ability-title">Windows</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-									
-				</span>
-			</li>
-			<li>
-				<span class="ability-title">Kali Linux</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-		
-			
-					
-				
-			<li>
-				<span class="ability-title">Git</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>		
-				
-			<li>
-				<span class="ability-title">Adobe Photoshop</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-			<li>
-				<span class="ability-title">Tableau</span>
-				<span class="ability-score">
-				
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star filled"></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-								
-					<span class="glyphicon glyphicon-star "></span>
-					
-									
-				</span>
-			</li>
-			
-					
-				
-					
-				
-		</ul>
-	</div>
-	
-	</div>			</div>
-		</div>
-		
-		
-		
-		
-		
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/corxlogo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/corxlogo.png" data-gall="portfolioGallery" class="venobox" title="COR X mobile app"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+    
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/infohub.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/infohub.png" data-gall="portfolioGallery" class="venobox" title="Info Hub"><i class="bx bx-plus"></i></a>
+                <a href="http://infohubhome.000webhostapp.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-		
-<div id="projects" class="container">
-<h2>Projects</h2>
-<p class="lead">
-	&ldquo;You can do anything you set your mind to.&rdquo;<br />- Benjamin Franklin
-</p>
+        </div>
 
-<hr />
+      </div>
+    </section><!-- End Portfolio Section -->
 
-<div class="row">
+    <!-- ======= certifications Section ======= -->
+    <section id="certifications" class="certifications">
+      <div class="container">
 
-		
-	<div class="col-md-6 col-sm-12 col-xs-12">
-		<figure class="effect">
-			<img src="view/images/intro.png" alt="corx" />
-			
-			<figcaption>
-				<h3>CORX Mobile app</h3>
-				<p>Build the mobile app for COVID-19 Pandemic.</p>
-				<p><strong>Tags:</strong> <br />Design, Development, Implementation, Android</p>
-				<a href="https://github.com/Balaji-star/CORX_app" target="_blank">View more</a>
-				<span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-			</figcaption> 
-		</figure>
-	</div>
-	
-	<div class="col-md-6 col-sm-12 col-xs-12">
-		<figure class="effect">
-			<img src="view/images/f.jpg" alt="SOAP - Den Bosch" />
-			
-			<figcaption>
-				<h3>Help2Feed Mobile app</h3>
-				<p>Build the mobile app for Food waste Management.</p>
-				<p><strong>Tags:</strong> <br />Design, Development, Implementation, Android</p>
-				<span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-			</figcaption> 
-		</figure>
-	</div>
+        <div class="section-title">
+          
+          <p align= "center"> <b>“Protons give an atom its identity, electrons its personality.”
+</br>- Bill Bryson, A short history of nearly everything.</b> </p>
+<h2>Certifications</h2>
+        </div>
 
-		
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            
+            <h5 class="title" style="color: #2282e3;">University of Minnesota</h5>
+            <p class="description">Course - Agile Software Development</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+           
+            <h5 class="title" style="color: #2282e3;">Google</h5>
+            <p class="description">Course - Fundamentals of Digital Marketing</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            
+            <h5 class="title" style="color: #2282e3;">Cisco</h5>
+            <p class="description">Course - Entreprenuership</p>
+          </div>
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            
+            <h5 class="title" style="color: #2282e3;">IBM</h5>
+            <p class="description">Course - Data Visualization with Python</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+           
+            <h5 class="title" style="color: #2282e3;">University of Virginia</h5>
+            <p class="description">Course - Design Thinking for Innovation</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+           
+            <h5 class="title" style="color: #2282e3;">TCS</h5>
+            <p class="description">Course - Soft Skills</p>
+          </div>
+          
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+           
+            <h5 class="title" style="color: #2282e3;">Simplilearn</h5>
+            <p class="description">Course - Introduction to Project Management</p>
+          </div>
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+           
+            <h5 class="title" style="color: #2282e3;">Greatlearning</h5>
+            <p class="description">Course -  Data Visualization using Python</p>
+          </div>
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+           
+            <h5 class="title" style="color: #2282e3;">University of Colorado</h5>
+            <p class="description">Course - Requirement Gathering for secure software development</p>
+          </div>
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+           
+            <h5 class="title" style="color: #2282e3;">Udemy</h5>
+            <p class="description">The Certified Ethical hacking course</p>
+          </div>
+		  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+           
+            <h5 class="title" style="color: #2282e3;">Progate</h5>
+            <p class="description">Course - Fundamentals of HTML, CSS & JavaScript</p>
+          </div>
+        </div>
 
-		
-</div>
-	
-		</div>
-		
-		<div class="background-gray">
-			<div id="contact" class="container">
-				<h2>Contact</h2>
-<p class="lead">
-	&ldquo;Commit with your commitments. &rdquo;<br />- Balaji
-</p>
+      </div>
+    </section><!-- End certifications Section -->
 
-<hr />
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
 
-<div class="row">
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			<li>
-				<a href="https://www.instagram.com/mr_scorpian_king/" target="_blank">
-					<span class="icon icon-instagram"></span>
-							https://www.instagram.com/mr_scorpian_king/	</a>
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/balaji-r-3646ab193/" target="_blank">
-					<span class="icon icon-linkedin"></span>
-					https://www.linkedin.com/in/balaji-r-3646ab193/	</a>
-			</li>
-		</ul>
-		
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			<!--<li>
-				<a href="javascript:void(0);">
-					<span class="icon icon-skype"></span>
-					pascalvgemert				</a>
-			</li>-->
-			
-		</ul>
-	</div>
-</div>
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p> “You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.” – George Lorimer</p>
+        </div>
 
-<hr />
+        <div class="owl-carousel testimonials-carousel">
 
-		</div>
-		</div>
-		
-		<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title">Your browser is out of date</h4>
-			</div>
-			<div class="modal-body">
-				<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
-			</div>
-			<div class="modal-footer">
-				<a href="http://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
-			</div>
-		</div><!-- /.modal-content -->
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->		
-		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="view/js/script.js"></script>
-		<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
-		
-		<!-- Google Analytics -->
-		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-3361587-8']);
-		  _gaq.push(['_trackPageview']);
-		
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
-	</body>
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+               It is a great pleasure to recommend Balaji for his higher studies & industry life. He is one of the most exceptional interns I have encountered in my 5 years of corporate life. I am not surprised to find out he is now ranked at the top of an extraordinarily capable class of industry-ready students. Balaji has a keen interest in and talent for mobile app development. His advanced skills and passion for the app development makes him an ideal fit for any software development organisation.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/mit.png" class="testimonial-img" alt="">
+            <h3>Dr. Mithileysh S.</h3>
+            <h4>Ceo &amp; Founder <br> MIT Square</h4>
+          </div>
 
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            Balaji is a student of multiple talents. He is a self motivated guy who involves in various activities. He has a balanced interest in  academic and co-curricular activities. At present he is the student coordinator for a project development event. I'm happy about his growth and wish him many more success.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/hod.jpeg" class="testimonial-img" alt="">
+            <h3>Dr. T.Sheela</h3>
+            <h4>Dean Networking, HOD/IT<br>Sairam instutions</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+               IT guy Mr.Balaji early bud in third year at Sri Sairam Engineering college more concern at society, dedicated in
+his studies, research. I more fascinated on his project about Covid solution and smart cities.
+His motto hard work never fails turns to more success.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/thanuja.jpeg" class="testimonial-img" alt="">
+            <h3>Dr. B.Thanuja</h3>
+            <h4>AP/Chemistry </br> Sri Sairam Engineering College</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Balaji is very innovative person with good leadership and communication skills. He completes his job with perfection, keep up the good spirit. Wishing to see your wonders that you are gonna make.. All the best techie
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/dha.jpeg" class="testimonial-img" alt="">
+            <h3>Ms.Dharaniya</h3>
+            <h4>HR</br>Oneyes elearning</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              A calm & composed youngster with lot of social responsibility towards society to work with. Obviously the young talented person who can lead many things in future
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/tham.jpeg" class="testimonial-img" alt="">
+            <h3>Mr.Thamizh Selvan</h3>
+            <h4>Founder </br>Simple Trust</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+   <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2020</span></strong>
+      </div>
+      <div class="credits">
+        Designed by Balaji
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+<!--Back button to up-->
+  
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
